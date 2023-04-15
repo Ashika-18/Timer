@@ -13,6 +13,8 @@
 		0166657229E2AFA2000EB239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0166657029E2AFA2000EB239 /* Main.storyboard */; };
 		0166657429E2AFA3000EB239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0166657329E2AFA3000EB239 /* Assets.xcassets */; };
 		0166657729E2AFA3000EB239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0166657529E2AFA3000EB239 /* LaunchScreen.storyboard */; };
+		01D71AD929E2B4E4002D79CE /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D71AD829E2B4E4002D79CE /* SettingViewController.swift */; };
+		01D71ADB29EA8061002D79CE /* cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 01D71ADA29EA8060002D79CE /* cymbal.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0166657329E2AFA3000EB239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0166657629E2AFA3000EB239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0166657829E2AFA3000EB239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D71AD829E2B4E4002D79CE /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		01D71ADA29EA8060002D79CE /* cymbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cymbal.mp3; path = "../../../../Downloads/SwiftBook2017-Swift4-2.0/1_4/MyMusic/material/cymbal.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		0166655E29E2AFA1000EB239 = {
 			isa = PBXGroup;
 			children = (
+				01D71AD829E2B4E4002D79CE /* SettingViewController.swift */,
 				0166656929E2AFA2000EB239 /* Timer */,
 				0166656829E2AFA2000EB239 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				0166657329E2AFA3000EB239 /* Assets.xcassets */,
 				0166657529E2AFA3000EB239 /* LaunchScreen.storyboard */,
 				0166657829E2AFA3000EB239 /* Info.plist */,
+				01D71ADA29EA8060002D79CE /* cymbal.mp3 */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D71ADB29EA8061002D79CE /* cymbal.mp3 in Resources */,
 				0166657729E2AFA3000EB239 /* LaunchScreen.storyboard in Resources */,
 				0166657429E2AFA3000EB239 /* Assets.xcassets in Resources */,
 				0166657229E2AFA2000EB239 /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 				0166656F29E2AFA2000EB239 /* ViewController.swift in Sources */,
 				0166656B29E2AFA2000EB239 /* AppDelegate.swift in Sources */,
 				0166656D29E2AFA2000EB239 /* SceneDelegate.swift in Sources */,
+				01D71AD929E2B4E4002D79CE /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
